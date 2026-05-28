@@ -1,0 +1,33 @@
+Proceso CambiarEstadoProceso
+	
+		Definir idBuscado Como Entero
+		Definir nuevoEstado Como Cadena
+		Definir encontrado Como Logico
+		
+		encontrado <- Falso
+		
+		Escribir "Ingrese ID del proceso:"
+		Leer idBuscado
+		
+		
+		Si idBuscado = id Entonces
+			
+			encontrado <- Verdadero
+			
+			Escribir "Ingrese nuevo estado del proceso:"
+			Leer nuevoEstado
+			
+			estado <- nuevoEstado
+			
+			Escribir "Estado actualizado correctamente"
+			
+		FinSi
+		
+		Si encontrado = Falso Entonces
+			
+			Escribir "Proceso no encontrado"
+			
+		FinSi
+		
+FinProceso
+
