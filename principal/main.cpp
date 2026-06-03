@@ -1,5 +1,5 @@
 #include <iostream>
-// Importamos tus librerías usando la ruta relativa
+// Importamos las librerias
 #include "../librerias/lista.cpp"
 #include "../librerias/colas.cpp"
 #include "../librerias/pilas.cpp"
@@ -7,7 +7,7 @@
 using namespace std;
 
 int main() {
-    // Creamos las instancias de tus estructuras
+    // Creamos las instancias de las estructuras
     Lista listaProcesos;
     Colas colaPrioridad;
     Pilas pilaMemoria;
